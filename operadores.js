@@ -36,3 +36,22 @@ console.log(); */
 
 console.log(true && false)
 console.log(true || false)
+
+/* Si se declara una variable y la asignamos, es true por defecto */
+
+let value_1 = Number('5')
+let value_2 =  9
+let suma = value_1 + value_2
+console.log(suma)
+
+// CONDICIONALES
+
+if (1) 
+    {
+        console.log("Valor verdadero")
+    }
+    else
+        {
+            console.log("Valor falso")
+        }
+    
